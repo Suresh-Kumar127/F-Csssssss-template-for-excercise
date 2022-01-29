@@ -1,0 +1,235 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.main_container{
+    padding: 0px 150px 0px 150px;
+    }
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.name{
+    font-size: 40px;
+    color:darkorchid;
+    font-weight: 900;
+    text-shadow: 0px 0px 5px whitesmoke;
+    
+}
+.nav_bar{
+    margin-top: 5px;
+}
+.nav_bar ul li{
+    display: inline;
+    text-align: center;
+    padding:10px;
+    
+
+}
+.nav_bar ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 16px;
+    color:darkslategrey;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.nav_bar ul li a:hover{
+    text-shadow: 0px 0px 3px #9e2298;
+}
+.top_section{
+    display: flex;
+    justify-content: space-around;
+}
+.main_text_box{
+    flex:1;
+    margin: 150px 20px 20px 20px;
+
+}
+.main_text_box h1{
+    color:darkorchid;
+    text-shadow: 0px 0px 3px firebrick;
+    word-spacing: 8px;
+}
+#discript{
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.button button{
+    width: 150px;
+    padding:10px;
+    font-weight: bold;
+    background-color: transparent;
+    border:3px solid grey;
+    margin-right: 20px;
+    color:darkgrey;
+    margin-top: 20px;
+}
+.button button:hover{
+background-color: darkslateblue;
+color:white;
+letter-spacing: 2px;
+}
+.icon_list{
+    width:20px;
+    height: 20px;
+    border-radius: 100%;
+    border:2px solid black;
+}
+.icon_list>img{
+    width:20px;
+    height:20px;
+}
+.project_numbers{
+    margin-top: 50px;
+    text-align:center;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+.project{
+    margin-right: 30px;
+}
+.project h4{
+    color:rgb(105, 101, 36);
+    font-size:20px;
+    font-weight: 900;
+}
+.project p{
+    font-weight: bold;
+    color:rgb(80, 74, 74);
+}
+#p_done_runnig{
+    color:darkorchid;
+}
+#happy_clients{
+    color:#b65b3c;
+}
+/* new section */
+.services{
+    text-align:center;
+
+}
+.services_provided{
+    word-spacing: 5px;
+    font-weight: 900;  
+     
+}
+#services_provided ,#work_heading{
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+.heading h5 , #about{
+    color:#9e2298;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+hr{
+    width:10%;
+    background-color: #9e2298;
+    height: 3px;
+    border-radius: 1px;
+}
+hr:hover{
+    width:15%;
+    background-color: #9e2298;
+    height: 3px;
+    border-radius: 1px;
+}
+.service_cards{
+    display: flex;
+    justify-content: center;
+    
+}
+.service_card_1{
+    width: 300px;
+    height: 300px;
+    box-shadow:0px 0px 8px gray;
+margin:20px;
+}
+.service_card_1 img{
+    width:50px; 
+    height: 50px;
+    padding:10px;
+    margin:10px 0px 0px 0px;
+}
+.service_card_1 h5{
+    font-weight: 800;
+    font-size: 20px;
+}
+/* new section */
+.work_section{
+    display: flex;
+    margin: 100px auto 0px auto;
+    
+}
+.image_left img{
+    width: 450px;
+    height: 450px;
+}
+.work_text{
+    padding: 30px;
+}
+
+#heading-color-text{
+    color:#9e2298;
+}
+#work_para{
+    font-weight: 700;
+}
+#last_list{
+list-style-type:square;
+font-weight: 700;
+}
+#last_btn{
+    width: 150px;
+    padding:10px;
+    border:none;
+    color:white;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color:darkorchid;
+}
+/* /* Fooooooooter section/* */
+footer{
+    height:350px;
+    padding:auto;
+    background-color:rgb(146, 62, 189);
+    color:white;
+    margin-top: 100px;
+}
+.percent{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-top:70px;
+    
+}
+.percent h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:12px solid whitesmoke;
+    border-radius: 100%;
+    width:100px;
+    height: 100px;
+    margin:auto;
+    font-weight: 500;
+    padding:20px;
+}
+.percent p>strong{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.skill_list{
+    text-align: center;
+}
